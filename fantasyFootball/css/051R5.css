@@ -1,0 +1,24 @@
+
+body { background-image: url(../afbeeldingen/back.jpg); }
+#header { margin-left: 60vw; }
+#login { margin-left: 70vw;}
+
+#link { font-size: 0.5em; }
+
+.box {
+	display: flex;
+    flex-flow: row wrap;
+	width: 100vw;
+	
+}
+#schema {
+	flex: 1 1 40%;
+    
+	
+}
+figure {
+	flex: 1 1 55%;
+	width: 30%;
+	height: auto;
+	margin-left: -10px;
+}
