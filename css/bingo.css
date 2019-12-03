@@ -1,0 +1,27 @@
+
+table {
+    width: 25vw;
+    height: 25vw;
+}
+
+tr, td {
+    border: 0.1em solid black; 
+    text-align: center;
+    
+}
+
+.getallen {
+ margin: auto;
+ font-weight: bold;
+ font-size: 1.5em;   
+}
+
+#bingo {
+ font-size: 1.5em;
+ font-weight: bold;
+ margin-left: 5em;
+}
+
+.rij7, .k7 {
+ visibility: hidden;
+}
