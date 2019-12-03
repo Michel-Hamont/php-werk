@@ -1,0 +1,38 @@
+
+body { background: url(../afbeeldingen/back.jpg) no-repeat center; background-size: cover; }
+header { display: flex; flex-flow: row wrap; background: url(../afbeeldingen/bck_site.jpg) no-repeat center; background-size: cover; color: white;}
+.box1 { flex: 1 1 60%; width: 60vw;}
+.box2 { flex: 1 1 35%; }
+
+.container {
+	display: flex;
+	flex-flow: row nowrap;
+}
+.menu {
+	flex: 1 1 15%;
+	border: black double 2px;
+	height: 100vh;
+	text-align: center;
+	background: url(../afbeeldingen/bck_site.jpg) no-repeat center; background-size: cover; color: white;
+}
+.rechts {
+	flex: 1 1 80%;
+	text-align: center;
+	font-size: 2em;	
+}
+.kop {
+	color: white;
+}
+.link:link {
+	color: white;
+}
+.link:visited {
+	color: aqua;
+}
+.link:hover {
+	color: azure;
+}
+.link:active {
+	color: aliceblue;
+}
+#welkomsttekst { font-size: 2em;}
